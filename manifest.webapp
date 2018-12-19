@@ -1,0 +1,26 @@
+{
+  "name": "Hello",
+  "description": "Sample app for KaiOS development",
+  "launch_path": "/index.html",
+  "permissions": {
+    "desktop-notification": {},
+    "serviceworker": {},
+    "themeable": {},
+      "spatialnavigation-app-manage": {},
+    "geolocation": {}
+  },  
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/resources/farmer.jpg"
+  },
+  "orientation": "default",
+  "activities": {},
+  "messages": [
+    { "notification": "/index.html" },
+    { "serviceworker-notification": "/index.html" }
+  ],
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "cursor": true
+}
