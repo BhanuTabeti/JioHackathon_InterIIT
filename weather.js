@@ -1,8 +1,8 @@
 document.activeElement.addEventListener('keydown',handleKeyDownEvent);
 
 function handleKeyDownEvent(e) {
-  if (e.key === 'Enter') 
-    abc();
+  if (e.key === 'SoftRight') 
+    window.history.back();
 }
 
 // Builds the HTML Table out of myList.

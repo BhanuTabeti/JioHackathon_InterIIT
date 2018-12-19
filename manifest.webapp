@@ -21,6 +21,5 @@
   ],
   "chrome": {
     "statusbar": "overlap"
-  },
-  "cursor": true
+  }
 }
